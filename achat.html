@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>achats</title>
+</head>
+<body><br><br>
+        <nav  style="width: 110%;height: 60px; background: antiquewhite; box-shadow: 0 0 10px black; "><br>
+        <a href="index.html" style="padding: 5%;background: rgba(0, 128, 0, 0.685); text-decoration: none;color: aqua;"  >BRAZZAVILLE</a>
+        <a href="pointnoir.html" style="padding: 5%; text-decoration: none;">POINT NOIR</a>
+        <a href="dolisie.html" style="text-decoration: none;">achats</a>
+    </nav><br><br>
+
+    <div style="width: 100%;height: 100%; margin: auto; text-align: center ; ">
+         <form action="">
+            <label for="nom">NOM</label><br>
+            <input type="text" placeholder="nom" style="width: 50%; text-align: center;" > <br><br>
+            <label for="email"> EMAIL </label><br>
+            <input type="text" placeholder="email" style="width: 50%; text-align: center;"><br><br>
+            <label for="numero"> NUMERO </label><br>
+            <input type="text" placeholder="06 456 44 65" style="width: 50%; text-align: center;"><br><br>
+            <label for="ville"> VILLE</label><br>
+            <input type="text" style="width: 50%;text-align: center;" placeholder="ville"><br><br>
+            <label for="nom"> ARTICLE</label><br>
+            <input type="text" placeholder="articles" style="width: 50%; text-align: center;"><br><br>
+            <label for="nombre"> QUANTITE</label><br>
+            <input type="nombre" placeholder="1" style="width: 50%; text-align: center;"><br><br>
+            <button style="width: 50%; height: 35px; background: green;border-radius: 22px;">valider</button> 
+         </form>
+
+    </div>
+
+    <div class="parent">
+        <div>
+            <h5>heure livraison</h5>
+            <p style="font-size: 13px;">le colisfais 2jrs expedition dans pays <br>
+            le colis fais 2semains 5 jours hors le pays</p>
+        </div>
+
+        <div>
+            <h5>delais livraison</h5>
+            <p style="font-size: 13px;">
+                pourles commande de plus de 2 kilos hors pays 2semains 5jpurs <br>
+                pour les commande dans le pays 2jpurs
+            </p>
+
+        </div>
+
+        
+    </div>
+
+    <div class="parent">
+        <div>
+        <h5>
+            message au client
+            
+        </h5>
+        <p style="font-size: 13px;">
+            apreslivraison demander votre reçu <br>
+            garder le reçu au cas de probleme 
+        </p>
+    </div>
+
+    <div>
+        <h5>
+            expediteur
+        </h5>
+        <p style="font-size: 13px;">
+        merci de bien etre en contacte avec un de nous expediteur
+        </p>
+    </div>
+    </div>
+
+
+</body>
+
+<style>
+    .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+  gap: 10px;
+  width: 100%;
+}
+</style>
+</html>
